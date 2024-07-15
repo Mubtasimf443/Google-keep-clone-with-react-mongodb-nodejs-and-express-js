@@ -1,0 +1,10 @@
+/*   بِسْمِ اللهِ الرَّحْمٰنِ الرَّحِيْمِ  ﷺ  InshaAllah */
+
+
+.notelayoutSection {
+    display: grid;
+  padding-left: 20%;
+  padding-top: 33px;
+   overflow-y: scroll;
+   grid-template-columns: repeat(3 , 1fr);
+}
