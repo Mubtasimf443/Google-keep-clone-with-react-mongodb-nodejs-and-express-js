@@ -1,0 +1,7 @@
+/client/node_modules
+/server/node_modules
+/server/.env
+/client/v.html
+/client/keepClone.html
+/client/.eslintrc.cjs
+/client/vite.config.js

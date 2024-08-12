@@ -1,0 +1,40 @@
+/*   بِسْمِ اللهِ الرَّحْمٰنِ الرَّحِيْمِ  ﷺ  InshaAllah */
+
+
+.notelayoutSection {
+  display: grid;
+ position: absolute;
+ grid-template-columns: repeat(3 , 0fr);
+ top: 12em;
+ z-index: -12;
+ 
+ right: 0px;
+ width: 85% ;
+ column-gap: 2em;
+ row-gap: 20px;
+ overflow-y: scroll;
+ overflow-x: hidden;
+}
+.notebox {
+
+box-sizing: border-box;
+border: 2px solid rgba(0, 0, 0, 0.158);
+z-index: 200;
+width: 350px;
+border-radius: 12px;
+padding: 5px 14px 5px 14px ;
+z-index: -10000;
+height: 130px;
+overflow-y: scroll;
+}
+
+
+.notebox > h3 {
+  color: rgba(0, 0, 0, 0.829);
+  font-family: sans-serif;
+  padding: 3px;
+}
+
+.notebox > p {
+  font-family: sans-serif; padding: 3px;
+}
